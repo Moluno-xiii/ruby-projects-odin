@@ -95,7 +95,7 @@ The game is built entirely in Ruby with:
 
 ## 👨‍💻 Author
 
-**Moluno Chukwuemeke**  
+**Moluno Chukwuemeke Progress**  
 [GitHub](https://github.com/Moluno-xiii) | [Twitter](https://twitter.com/moluno_cp)
 
 ---

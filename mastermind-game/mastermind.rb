@@ -24,11 +24,6 @@ class MasterMind
     puts "You're out of guesses, You Lose! the correct answer was #{random_color}"
   end
 
-  def log
-    array = %w[what would have happende to you if you had died]
-    array.sample(3)
-  end
-
   private
 
   def guess
