@@ -29,8 +29,6 @@ class HangMan
   def check_input?(result)
     return puts "You already guessed #{result}" if guessed_words.include?(result)
 
-    # if guessed_words.include?(result)
-    #   puts "you already guessed #{result} #{guessed_words}"
     if random_word.include?(result)
       puts ciphered_word
       puts 'you guessed right! :)'
@@ -57,7 +55,6 @@ class HangMan
   def decipher(character)
     random_word.chars.each_with_index do |char, index|
       char == character ? ciphered_word[index] = character : nil
-      # ciphered_word[index] = char == character ? character : '_'
     end
     puts ciphered_word
     ciphered_word
